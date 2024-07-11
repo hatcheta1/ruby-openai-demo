@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    event_stream_parser (1.0.0)
+    faraday (2.10.0)
+      faraday-net_http (>= 2.0, < 3.2)
+      logger
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.1.0)
+      net-http
+    logger (1.6.0)
+    multipart-post (2.4.1)
+    net-http (0.4.1)
+      uri
+    ruby-openai (7.1.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    uri (0.13.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  ruby-openai
+
+BUNDLED WITH
+   2.4.6
