@@ -1,6 +1,7 @@
 require "openai"
+require "dotenv/load"
 
-client = OpenAI::Client.new(access_token: ENV.fetch("OPENAI_API_KEY"))
+client = OpenAI::Client.new(access_token: ENV.fetch("OPENAI_KEY"))
 
 # Prepare an Array of previous messages
 message_list = [
